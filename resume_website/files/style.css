@@ -1,0 +1,70 @@
+:root{
+    --orange1: rgb(251 146 60);
+    --orange2: rgb(249 115 22);
+    --green1: rgb(74 222 128);
+    --blue1: rgb(110 231 183);
+}
+body{
+    background-color: var(--blue1);
+}
+*{ 
+  font-family: "Germania One", system-ui;
+  box-sizing: border-box; 
+}
+.header{
+    border-bottom: 2px solid black;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
+}
+.image{
+    width: 25%;
+    height: 15%;
+    
+}
+.titles{
+    text-align: center;
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid black;
+    width: 20vw;
+    height: 300px;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    
+}
+a{
+    text-decoration: none;
+}
+.home{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 80vw;
+}
+.abc{
+    float: left;
+
+}
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80vw;
+    margin: 30px;
+    flex-direction: column;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
